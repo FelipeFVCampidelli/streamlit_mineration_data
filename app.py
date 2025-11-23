@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 
-DB_PATH = "/content/tp2.db"  # caminho do seu banco no Colab
+DB_PATH = "tp2.db"
 
 @st.cache_data
 def load_table(query, params=None):
